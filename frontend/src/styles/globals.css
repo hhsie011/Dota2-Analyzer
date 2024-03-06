@@ -1,0 +1,76 @@
+* {
+  cursor: default;
+}
+div .active {
+  color: #bfc8d4;
+}
+img {
+  cursor: pointer;
+}
+input[type=text], input[type=number] {
+  width: 32rem;
+  background-color: #0b1118;
+  font-size: 16px;
+  cursor: text;
+}
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type=submit] {
+  margin-top: 1.5rem;
+  width: 33.6rem;
+  background-color: #af3c38;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+input, input:focus {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 0.2rem;
+  outline: none;
+  color: #bfc8d4;
+}
+
+select {
+  padding: 0.8rem;
+  width: 33.6rem;
+  border: none;
+  border-radius: 0.2rem;
+  outline: none;
+  background-color: #0b1118;
+  font-size: 16px;
+  color: #bfc8d4;
+}
+
+option {
+  font-size: 14px;
+}
+
+*::-webkit-scrollbar {
+  width: 1.6rem;
+  background-color: #0b1118;
+}
+*::-webkit-scrollbar-thumb {
+  border: 0.6rem #0b1118 solid;
+  border-radius: 1rem;
+  background-color: #293042;
+}
+
+input[type=text]::selection, input[type=number]::selection {
+  color: inherit;
+  background: #af3c38;
+}
+input[type=text]::-moz-selection, input[type=number]::-moz-selection {
+  color: inherit;
+  background: #af3c38;
+}
+
+::selection {
+  color: none;
+  background: none;
+}
+::-moz-selection {
+  color: none;
+  background: none;
+}

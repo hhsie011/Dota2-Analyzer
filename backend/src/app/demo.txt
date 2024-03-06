@@ -1,0 +1,11 @@
+backup requests (1 parameter):
+backup_match (done)
+backup_hero
+backup_ability
+backup_player
+
+import requests (1 parameter): 
+import_match (done)
+import_hero
+import_ability
+import_player

@@ -1,0 +1,676 @@
+{
+	"gold_xp_comparison": [
+	{
+		"hero_id": "1",
+		"hero_name": "Anti-Mage",
+		"average_xp_per_min": "404.80",
+		"average_gold_per_min": 456.20
+	},
+	{
+		"hero_id": "2",
+		"hero_name": "Axe",
+		"average_xp_per_min": "494.00",
+		"average_gold_per_min": 659.00
+	},
+	{
+		"hero_id": "3",
+		"hero_name": "Bane",
+		"average_xp_per_min": "599.00",
+		"average_gold_per_min": 605.00
+	},
+	{
+		"hero_id": "4",
+		"hero_name": "Bloodseeker",
+		"average_xp_per_min": "613.00",
+		"average_gold_per_min": 762.00
+	},
+	{
+		"hero_id": "5",
+		"hero_name": "Crystal Maiden",
+		"average_xp_per_min": "381.00",
+		"average_gold_per_min": 480.00
+	},
+	{
+		"hero_id": "6",
+		"hero_name": "Drow Ranger",
+		"average_xp_per_min": "535.00",
+		"average_gold_per_min": 602.20
+	},
+	{
+		"hero_id": "7",
+		"hero_name": "Earthshaker",
+		"average_xp_per_min": "496.00",
+		"average_gold_per_min": 456.00
+	},
+	{
+		"hero_id": "8",
+		"hero_name": "Juggernaut",
+		"average_xp_per_min": "581.00",
+		"average_gold_per_min": 756.00
+	},
+	{
+		"hero_id": "9",
+		"hero_name": "Mirana",
+		"average_xp_per_min": "460.00",
+		"average_gold_per_min": 544.00
+	},
+	{
+		"hero_id": "10",
+		"hero_name": "Morphling",
+		"average_xp_per_min": "600.00",
+		"average_gold_per_min": 509.00
+	},
+	{
+		"hero_id": "11",
+		"hero_name": "Shadow Fiend",
+		"average_xp_per_min": "237.00",
+		"average_gold_per_min": 249.00
+	},
+	{
+		"hero_id": "12",
+		"hero_name": "Phantom Lancer",
+		"average_xp_per_min": "322.00",
+		"average_gold_per_min": 358.00
+	},
+	{
+		"hero_id": "13",
+		"hero_name": "Puck",
+		"average_xp_per_min": "355.00",
+		"average_gold_per_min": 425.00
+	},
+	{
+		"hero_id": "14",
+		"hero_name": "Pudge",
+		"average_xp_per_min": "328.00",
+		"average_gold_per_min": 345.00
+	},
+	{
+		"hero_id": "15",
+		"hero_name": "Razor",
+		"average_xp_per_min": "290.00",
+		"average_gold_per_min": 378.00
+	},
+	{
+		"hero_id": "16",
+		"hero_name": "Sand King",
+		"average_xp_per_min": "286.00",
+		"average_gold_per_min": 351.00
+	},
+	{
+		"hero_id": "17",
+		"hero_name": "Storm Spirit",
+		"average_xp_per_min": "453.00",
+		"average_gold_per_min": 620.00
+	},
+	{
+		"hero_id": "18",
+		"hero_name": "Sven",
+		"average_xp_per_min": "459.00",
+		"average_gold_per_min": 632.00
+	},
+	{
+		"hero_id": "19",
+		"hero_name": "Tiny",
+		"average_xp_per_min": "323.00",
+		"average_gold_per_min": 436.00
+	},
+	{
+		"hero_id": "20",
+		"hero_name": "Vengeful Spirit",
+		"average_xp_per_min": "331.00",
+		"average_gold_per_min": 302.00
+	},
+	{
+		"hero_id": "21",
+		"hero_name": "Windranger",
+		"average_xp_per_min": "500.00",
+		"average_gold_per_min": 631.00
+	},
+	{
+		"hero_id": "22",
+		"hero_name": "Zeus",
+		"average_xp_per_min": "707.00",
+		"average_gold_per_min": 694.00
+	},
+	{
+		"hero_id": "23",
+		"hero_name": "Kunkka",
+		"average_xp_per_min": "424.00",
+		"average_gold_per_min": 372.00
+	},
+	{
+		"hero_id": "25",
+		"hero_name": "Lina",
+		"average_xp_per_min": "348.00",
+		"average_gold_per_min": 309.00
+	},
+	{
+		"hero_id": "26",
+		"hero_name": "Lion",
+		"average_xp_per_min": "624.00",
+		"average_gold_per_min": 541.00
+	},
+	{
+		"hero_id": "27",
+		"hero_name": "Shadow Shaman",
+		"average_xp_per_min": "308.00",
+		"average_gold_per_min": 309.00
+	},
+	{
+		"hero_id": "28",
+		"hero_name": "Slardar",
+		"average_xp_per_min": "235.00",
+		"average_gold_per_min": 205.00
+	},
+	{
+		"hero_id": "29",
+		"hero_name": "Tidehunter",
+		"average_xp_per_min": "289.00",
+		"average_gold_per_min": 272.00
+	},
+	{
+		"hero_id": "30",
+		"hero_name": "Witch Doctor",
+		"average_xp_per_min": "365.50",
+		"average_gold_per_min": 328.50
+	},
+	{
+		"hero_id": "31",
+		"hero_name": "Lich",
+		"average_xp_per_min": "423.00",
+		"average_gold_per_min": 388.00
+	},
+	{
+		"hero_id": "32",
+		"hero_name": "Riki",
+		"average_xp_per_min": "321.00",
+		"average_gold_per_min": 302.00
+	},
+	{
+		"hero_id": "33",
+		"hero_name": "Enigma",
+		"average_xp_per_min": "312.00",
+		"average_gold_per_min": 269.00
+	},
+	{
+		"hero_id": "34",
+		"hero_name": "Tinker",
+		"average_xp_per_min": "719.00",
+		"average_gold_per_min": 776.00
+	},
+	{
+		"hero_id": "35",
+		"hero_name": "Sniper",
+		"average_xp_per_min": "564.00",
+		"average_gold_per_min": 507.00
+	},
+	{
+		"hero_id": "36",
+		"hero_name": "Necrophos",
+		"average_xp_per_min": "425.00",
+		"average_gold_per_min": 426.00
+	},
+	{
+		"hero_id": "37",
+		"hero_name": "Warlock",
+		"average_xp_per_min": "293.00",
+		"average_gold_per_min": 326.00
+	},
+	{
+		"hero_id": "38",
+		"hero_name": "Beastmaster",
+		"average_xp_per_min": "460.00",
+		"average_gold_per_min": 483.00
+	},
+	{
+		"hero_id": "39",
+		"hero_name": "Queen of Pain",
+		"average_xp_per_min": "329.00",
+		"average_gold_per_min": 443.00
+	},
+	{
+		"hero_id": "40",
+		"hero_name": "Venomancer",
+		"average_xp_per_min": "245.00",
+		"average_gold_per_min": 250.00
+	},
+	{
+		"hero_id": "41",
+		"hero_name": "Faceless Void",
+		"average_xp_per_min": "607.00",
+		"average_gold_per_min": 517.00
+	},
+	{
+		"hero_id": "42",
+		"hero_name": "Wraith King",
+		"average_xp_per_min": "638.00",
+		"average_gold_per_min": 816.00
+	},
+	{
+		"hero_id": "43",
+		"hero_name": "Death Prophet",
+		"average_xp_per_min": "250.00",
+		"average_gold_per_min": 240.00
+	},
+	{
+		"hero_id": "44",
+		"hero_name": "Phantom Assassin",
+		"average_xp_per_min": "440.00",
+		"average_gold_per_min": 593.00
+	},
+	{
+		"hero_id": "45",
+		"hero_name": "Pugna",
+		"average_xp_per_min": "191.00",
+		"average_gold_per_min": 225.00
+	},
+	{
+		"hero_id": "46",
+		"hero_name": "Templar Assassin",
+		"average_xp_per_min": "403.00",
+		"average_gold_per_min": 399.00
+	},
+	{
+		"hero_id": "47",
+		"hero_name": "Viper",
+		"average_xp_per_min": "352.00",
+		"average_gold_per_min": 410.00
+	},
+	{
+		"hero_id": "48",
+		"hero_name": "Luna",
+		"average_xp_per_min": "588.00",
+		"average_gold_per_min": 686.00
+	},
+	{
+		"hero_id": "49",
+		"hero_name": "Dragon Knight",
+		"average_xp_per_min": "604.00",
+		"average_gold_per_min": 733.00
+	},
+	{
+		"hero_id": "50",
+		"hero_name": "Dazzle",
+		"average_xp_per_min": "439.00",
+		"average_gold_per_min": 405.00
+	},
+	{
+		"hero_id": "51",
+		"hero_name": "Clockwerk",
+		"average_xp_per_min": "500.00",
+		"average_gold_per_min": 659.00
+	},
+	{
+		"hero_id": "52",
+		"hero_name": "Leshrac",
+		"average_xp_per_min": "404.00",
+		"average_gold_per_min": 615.00
+	},
+	{
+		"hero_id": "53",
+		"hero_name": "Nature's Prophet",
+		"average_xp_per_min": "356.00",
+		"average_gold_per_min": 395.00
+	},
+	{
+		"hero_id": "54",
+		"hero_name": "Lifestealer",
+		"average_xp_per_min": "651.00",
+		"average_gold_per_min": 658.00
+	},
+	{
+		"hero_id": "55",
+		"hero_name": "Dark Seer",
+		"average_xp_per_min": "921.50",
+		"average_gold_per_min": 986.50
+	},
+	{
+		"hero_id": "56",
+		"hero_name": "Clinkz",
+		"average_xp_per_min": "533.00",
+		"average_gold_per_min": 402.00
+	},
+	{
+		"hero_id": "57",
+		"hero_name": "Omniknight",
+		"average_xp_per_min": "415.00",
+		"average_gold_per_min": 570.00
+	},
+	{
+		"hero_id": "58",
+		"hero_name": "Enchantress",
+		"average_xp_per_min": "205.00",
+		"average_gold_per_min": 198.00
+	},
+	{
+		"hero_id": "59",
+		"hero_name": "Huskar",
+		"average_xp_per_min": "225.00",
+		"average_gold_per_min": 205.00
+	},
+	{
+		"hero_id": "60",
+		"hero_name": "Night Stalker",
+		"average_xp_per_min": "386.00",
+		"average_gold_per_min": 449.00
+	},
+	{
+		"hero_id": "61",
+		"hero_name": "Broodmother",
+		"average_xp_per_min": "220.00",
+		"average_gold_per_min": 271.00
+	},
+	{
+		"hero_id": "62",
+		"hero_name": "Bounty Hunter",
+		"average_xp_per_min": "211.00",
+		"average_gold_per_min": 198.00
+	},
+	{
+		"hero_id": "63",
+		"hero_name": "Weaver",
+		"average_xp_per_min": "310.00",
+		"average_gold_per_min": 430.00
+	},
+	{
+		"hero_id": "64",
+		"hero_name": "Jakiro",
+		"average_xp_per_min": "417.00",
+		"average_gold_per_min": 469.50
+	},
+	{
+		"hero_id": "65",
+		"hero_name": "Batrider",
+		"average_xp_per_min": "510.00",
+		"average_gold_per_min": 552.50
+	},
+	{
+		"hero_id": "66",
+		"hero_name": "Chen",
+		"average_xp_per_min": "448.00",
+		"average_gold_per_min": 592.00
+	},
+	{
+		"hero_id": "67",
+		"hero_name": "Spectre",
+		"average_xp_per_min": "423.00",
+		"average_gold_per_min": 426.00
+	},
+	{
+		"hero_id": "68",
+		"hero_name": "Ancient Apparition",
+		"average_xp_per_min": "554.00",
+		"average_gold_per_min": 498.00
+	},
+	{
+		"hero_id": "69",
+		"hero_name": "Doom",
+		"average_xp_per_min": "584.00",
+		"average_gold_per_min": 487.00
+	},
+	{
+		"hero_id": "70",
+		"hero_name": "Ursa",
+		"average_xp_per_min": "276.00",
+		"average_gold_per_min": 368.00
+	},
+	{
+		"hero_id": "71",
+		"hero_name": "Spirit Breaker",
+		"average_xp_per_min": "337.00",
+		"average_gold_per_min": 464.00
+	},
+	{
+		"hero_id": "72",
+		"hero_name": "Gyrocopter",
+		"average_xp_per_min": "522.00",
+		"average_gold_per_min": 494.00
+	},
+	{
+		"hero_id": "73",
+		"hero_name": "Alchemist",
+		"average_xp_per_min": "419.00",
+		"average_gold_per_min": 414.00
+	},
+	{
+		"hero_id": "74",
+		"hero_name": "Invoker",
+		"average_xp_per_min": "362.00",
+		"average_gold_per_min": 403.00
+	},
+	{
+		"hero_id": "75",
+		"hero_name": "Silencer",
+		"average_xp_per_min": "422.00",
+		"average_gold_per_min": 486.00
+	},
+	{
+		"hero_id": "76",
+		"hero_name": "Outworld Devourer",
+		"average_xp_per_min": "390.00",
+		"average_gold_per_min": 379.00
+	},
+	{
+		"hero_id": "77",
+		"hero_name": "Lycan",
+		"average_xp_per_min": "340.00",
+		"average_gold_per_min": 338.00
+	},
+	{
+		"hero_id": "78",
+		"hero_name": "Brewmaster",
+		"average_xp_per_min": "438.00",
+		"average_gold_per_min": 527.50
+	},
+	{
+		"hero_id": "79",
+		"hero_name": "Shadow Demon",
+		"average_xp_per_min": "376.00",
+		"average_gold_per_min": 421.00
+	},
+	{
+		"hero_id": "80",
+		"hero_name": "Lone Druid",
+		"average_xp_per_min": "512.00",
+		"average_gold_per_min": 522.00
+	},
+	{
+		"hero_id": "81",
+		"hero_name": "Chaos Knight",
+		"average_xp_per_min": "304.00",
+		"average_gold_per_min": 366.00
+	},
+	{
+		"hero_id": "82",
+		"hero_name": "Meepo",
+		"average_xp_per_min": "354.00",
+		"average_gold_per_min": 476.00
+	},
+	{
+		"hero_id": "83",
+		"hero_name": "Treant Protector",
+		"average_xp_per_min": "202.00",
+		"average_gold_per_min": 216.00
+	},
+	{
+		"hero_id": "84",
+		"hero_name": "Ogre Magi",
+		"average_xp_per_min": "507.00",
+		"average_gold_per_min": 625.00
+	},
+	{
+		"hero_id": "85",
+		"hero_name": "Undying",
+		"average_xp_per_min": "384.00",
+		"average_gold_per_min": 616.00
+	},
+	{
+		"hero_id": "86",
+		"hero_name": "Rubick",
+		"average_xp_per_min": "528.00",
+		"average_gold_per_min": 627.00
+	},
+	{
+		"hero_id": "87",
+		"hero_name": "Disruptor",
+		"average_xp_per_min": "427.00",
+		"average_gold_per_min": 498.00
+	},
+	{
+		"hero_id": "88",
+		"hero_name": "Nyx Assassin",
+		"average_xp_per_min": "789.00",
+		"average_gold_per_min": 587.00
+	},
+	{
+		"hero_id": "89",
+		"hero_name": "Naga Siren",
+		"average_xp_per_min": "422.00",
+		"average_gold_per_min": 538.00
+	},
+	{
+		"hero_id": "90",
+		"hero_name": "Keeper of the Light",
+		"average_xp_per_min": "305.00",
+		"average_gold_per_min": 393.00
+	},
+	{
+		"hero_id": "91",
+		"hero_name": "Io",
+		"average_xp_per_min": "528.00",
+		"average_gold_per_min": 585.00
+	},
+	{
+		"hero_id": "92",
+		"hero_name": "Visage",
+		"average_xp_per_min": "348.00",
+		"average_gold_per_min": 358.00
+	},
+	{
+		"hero_id": "93",
+		"hero_name": "Slark",
+		"average_xp_per_min": "399.00",
+		"average_gold_per_min": 420.00
+	},
+	{
+		"hero_id": "94",
+		"hero_name": "Medusa",
+		"average_xp_per_min": "556.00",
+		"average_gold_per_min": 514.00
+	},
+	{
+		"hero_id": "95",
+		"hero_name": "Troll Warlord",
+		"average_xp_per_min": "523.00",
+		"average_gold_per_min": 511.00
+	},
+	{
+		"hero_id": "96",
+		"hero_name": "Centaur Warrunner",
+		"average_xp_per_min": "501.00",
+		"average_gold_per_min": 512.00
+	},
+	{
+		"hero_id": "97",
+		"hero_name": "Magnus",
+		"average_xp_per_min": "337.00",
+		"average_gold_per_min": 463.00
+	},
+	{
+		"hero_id": "98",
+		"hero_name": "Timbersaw",
+		"average_xp_per_min": "230.00",
+		"average_gold_per_min": 243.00
+	},
+	{
+		"hero_id": "99",
+		"hero_name": "Bristleback",
+		"average_xp_per_min": "545.00",
+		"average_gold_per_min": 610.00
+	},
+	{
+		"hero_id": "100",
+		"hero_name": "Tusk",
+		"average_xp_per_min": "289.00",
+		"average_gold_per_min": 340.00
+	},
+	{
+		"hero_id": "101",
+		"hero_name": "Skywrath Mage",
+		"average_xp_per_min": "609.00",
+		"average_gold_per_min": 637.00
+	},
+	{
+		"hero_id": "102",
+		"hero_name": "Abaddon",
+		"average_xp_per_min": "888.00",
+		"average_gold_per_min": 698.00
+	},
+	{
+		"hero_id": "103",
+		"hero_name": "Elder Titan",
+		"average_xp_per_min": "579.00",
+		"average_gold_per_min": 691.00
+	},
+	{
+		"hero_id": "104",
+		"hero_name": "Legion Commander",
+		"average_xp_per_min": "330.00",
+		"average_gold_per_min": 354.00
+	},
+	{
+		"hero_id": "105",
+		"hero_name": "Techies",
+		"average_xp_per_min": "529.00",
+		"average_gold_per_min": 529.00
+	},
+	{
+		"hero_id": "106",
+		"hero_name": "Ember Spirit",
+		"average_xp_per_min": "339.00",
+		"average_gold_per_min": 293.00
+	},
+	{
+		"hero_id": "107",
+		"hero_name": "Earth Spirit",
+		"average_xp_per_min": "536.00",
+		"average_gold_per_min": 500.00
+	},
+	{
+		"hero_id": "108",
+		"hero_name": "Underlord",
+		"average_xp_per_min": "320.00",
+		"average_gold_per_min": 302.00
+	},
+	{
+		"hero_id": "109",
+		"hero_name": "Terrorblade",
+		"average_xp_per_min": "801.00",
+		"average_gold_per_min": 759.00
+	},
+	{
+		"hero_id": "110",
+		"hero_name": "Phoenix",
+		"average_xp_per_min": "362.00",
+		"average_gold_per_min": 393.00
+	},
+	{
+		"hero_id": "111",
+		"hero_name": "Oracle",
+		"average_xp_per_min": "218.00",
+		"average_gold_per_min": 230.00
+	},
+	{
+		"hero_id": "112",
+		"hero_name": "Winter Wyvern",
+		"average_xp_per_min": "766.00",
+		"average_gold_per_min": 876.00
+	},
+	{
+		"hero_id": "113",
+		"hero_name": "Arc Warden",
+		"average_xp_per_min": "242.00",
+		"average_gold_per_min": 219.00
+	}
+	]
+}

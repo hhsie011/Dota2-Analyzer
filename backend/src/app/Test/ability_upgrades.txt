@@ -1,0 +1,15 @@
+//THIS IS FOR ABILITY UPGRADES
+void write_upgrades_to_json(int number) {
+    vector<pair<int, int>> temp = get_upgrades();
+    ostringstream oSS;
+    oSS << "{\n";
+    oSS << "    "ability_upgrades": [\n";
+    for (unsigned i = 0; i < temp.size(); i++) {
+        oSS << "    {\n";
+        oSS << "        "ability_id": "" << std::get<0>temp.at(i) << "",\n";
+        oSS << "        "occurrences": "" << std::get<1>temp.at(i) << ""\n    }";
+        if (!(i == temp.size()-1)) {
+            oSS << ",\n";
+        }
+    }
+}

@@ -1,0 +1,129 @@
+{
+	"winrates": [
+	{
+		"id": "0",
+		"general": "53.18",
+		"specific": "46.73"
+	},
+	{
+		"id": "2",
+		"general": "53.18",
+		"specific": "53.27"
+	},
+	{
+		"id": "3",
+		"general": "53.18",
+		"specific": "53.27"
+	},
+	{
+		"id": "4",
+		"general": "53.18",
+		"specific": "46.73"
+	},
+	{
+		"id": "5",
+		"general": "53.18",
+		"specific": "46.73"
+	},
+	{
+		"id": "7",
+		"general": "53.18",
+		"specific": "46.73"
+	},
+	{
+		"id": "11",
+		"general": "53.18",
+		"specific": "53.27"
+	},
+	{
+		"id": "13",
+		"general": "53.18",
+		"specific": "46.73"
+	},
+	{
+		"id": "14",
+		"general": "53.18",
+		"specific": "46.73"
+	},
+	{
+		"id": "15",
+		"general": "53.18",
+		"specific": "53.27"
+	},
+	{
+		"id": "16",
+		"general": "53.18",
+		"specific": "53.27"
+	},
+	{
+		"id": "17",
+		"general": "53.18",
+		"specific": "46.73"
+	},
+	{
+		"id": "21",
+		"general": "53.18",
+		"specific": "46.73"
+	},
+	{
+		"id": "22",
+		"general": "53.18",
+		"specific": "46.73"
+	},
+	{
+		"id": "27",
+		"general": "53.18",
+		"specific": "53.27"
+	},
+	{
+		"id": "29",
+		"general": "53.18",
+		"specific": "53.27"
+	},
+	{
+		"id": "30",
+		"general": "53.18",
+		"specific": "46.73"
+	},
+	{
+		"id": "33",
+		"general": "53.18",
+		"specific": "53.27"
+	},
+	{
+		"id": "34",
+		"general": "53.18",
+		"specific": "46.73"
+	},
+	{
+		"id": "35",
+		"general": "53.18",
+		"specific": "53.27"
+	},
+	{
+		"id": "36",
+		"general": "53.18",
+		"specific": "46.73"
+	},
+	{
+		"id": "39",
+		"general": "53.18",
+		"specific": "53.27"
+	},
+	{
+		"id": "41",
+		"general": "53.18",
+		"specific": "46.73"
+	},
+	{
+		"id": "42",
+		"general": "53.18",
+		"specific": "46.73"
+	},
+	{
+		"id": "43",
+		"general": "53.18",
+		"specific": "53.27"
+	}
+	]
+}

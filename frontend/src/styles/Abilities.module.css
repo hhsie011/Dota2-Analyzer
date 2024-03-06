@@ -1,0 +1,38 @@
+.tableColumnOne,
+.tableColumnTwo,
+.tableColumnThree,
+.tableColumnFour {
+  display: flex;
+  justify-content: center;
+  cursor: inherit;
+}
+
+.tableColumnOne {
+  width: 7rem;
+}
+.tableColumnTwo {
+  width: 15rem;
+}
+.tableColumnThree {
+  width: 15rem;
+}
+.tableColumnFour {
+  width: 15rem;
+}
+
+.nameColumn {
+  justify-content: left;
+}
+
+.revealForm {
+  max-height: 22rem;
+  margin: 0 0 0.5rem 0;
+  flex-direction: row;
+  overflow-y: visible;
+  transition: 0.3s ease-out;
+}
+.revealContent {
+  opacity: 100;
+  transition: 0.2s ease;
+  transition-delay: 0.1s;
+}

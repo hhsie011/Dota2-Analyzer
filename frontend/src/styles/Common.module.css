@@ -1,0 +1,316 @@
+.container {
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 5rem 0 2rem 0;
+  width: auto;
+  min-height: 100vh;
+  color: #bfc8d4;
+  background-color: #0b1118;
+}
+
+.wrapper {
+  width: 60rem;
+}
+
+/* Styling for leaderboard */
+.table {
+  background-color: #0b1118;
+}
+.tableHeader {
+  top: 5rem;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  min-width: 60rem;
+  background-color: #828cad2c;
+  backdrop-filter: blur(5px);
+  border-radius: 0.2rem;
+  font-weight: 500;
+  color: #bfc8d4;
+}
+.tableRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  min-width: 60rem;
+  margin-top: 0.5rem;
+  background-color: #15181f;
+  border-radius: 0.2rem;
+  color: #bfc8d4;
+  transition: 0.15s ease-in-out;
+}
+.tableRow:hover {
+  background: linear-gradient(90deg, #af3c38 0.5rem, #1c2129 -10rem);
+  background-color: #1c2129;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+}
+.tableRow:hover + .inRowButtonWrapper, .inRowButtonWrapper:hover {
+  display: flex;
+}
+.mainColumn {
+  font-weight: 500;
+  color: #bfc8d4;
+  cursor: inherit;
+}
+
+/* General page title styling */
+.title {
+  line-height: 40px;
+  font-size: 54px;
+}
+
+/* Styling for image + text */
+.imageTextWrapper {
+  display: flex;
+  align-items: center;
+  line-height: 10px;
+}
+.imageTextWrapper:hover {
+  cursor: inherit;
+}
+.imageName {
+  padding-left: 0.5rem;
+  font-weight: 500;
+  color: #bfc8d4;
+  cursor: inherit;
+}
+.imageText {
+  padding-left: 1rem;
+}
+
+/* Button styling */
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.buttonWrapper {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0.5rem;
+}
+.button {
+  padding: 0.8rem 1rem;
+  margin-right: 0.5rem;
+  height: 1.5rem;
+  border-radius: 0.2rem;
+  background-color: #1c2129;
+  text-decoration: none;
+  font-weight: 500;
+  color: #bfc8d4;
+  cursor: pointer;
+  transition: 0.15s ease-in-out;
+}
+.buttonAlt {
+  margin-top: 1.2rem;
+  padding: 0.2rem 1rem 1.2rem 1rem;
+  height: 0.5rem;
+}
+.button * {
+  cursor: pointer;
+}
+.button:last-child {
+  margin-right: 0;
+}
+.button:hover {
+  background-color: #af3c38;
+  transition: 0.1s ease-in-out;
+}
+.buttonLink {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: inherit;
+}
+.buttonIcon {
+  font-size: 20px;
+}
+.button .buttonNumber {
+  width: 2rem;
+  text-align: center;
+}
+.buttonNumber {
+  line-height: 22px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.buttonStack {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buttonHeader {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  border-radius: 0.2rem;
+  color: #58616b;
+  background-color: #1c2129;
+  line-height: 32px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transform: translateY(-1.3rem);
+}
+.buttonHeader div {
+  padding: 0 0.6rem;
+}
+
+/* Specific styling for match page */
+.matchTable {
+  display: none;
+}
+.activeTable {
+  display: block;
+}
+.activeButton {
+  background-color: #af3c38;
+}
+
+/* In-line buttons for update/delete */
+.rowButtonWrapper {
+  display: flex;
+  flex-direction: row;
+}
+.inRowButtonWrapper {
+  display: none;
+  flex-direction: row;
+  padding-top: 0.4rem;
+  padding-left: 0.5rem;
+}
+
+/* Styling for match subpages */
+.choiceWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.choiceWrapper .buttonWrapper{
+  margin: auto 0;
+}
+
+.toggleButton {
+  background-color: #af3c38;
+}
+.hidden {
+  display: none;
+}
+
+.hideFormImmediate {
+  display: none !important;
+  max-height: 0rem;
+  border-radius: 0.2rem;
+  background-color: #1c2129;
+}
+.formContainer {
+  display: flex;
+  max-height: 0rem;
+  overflow-y: hidden;
+  border-radius: 0.2rem;
+  background-color: #1c2129;
+  transition: 0.3s ease-out;
+}
+.hideContentImemediate {
+  display: none !important;
+  opacity: 0;
+}
+.contentWrapper {
+  display: flex;
+  opacity: 0;
+  transition: 0.15s ease;
+}
+.formFiller {
+  min-width: 3.2rem;
+  border-radius: 0.2rem 0 0 0.2rem;
+  background-color: #7687b815;
+}
+.formFillerAlt {
+  min-width: 1rem;
+  margin-right: 2.2rem;
+  border-radius: 0.2rem 0 0 0.2rem;
+  background-color: #af3c38;
+}
+.formFillerIcon {
+  width: 15.8rem;
+  padding: 2rem;
+  text-align: right;
+  font-size: 36px;
+}
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.formTitle {
+  margin-bottom: 1.5rem;
+  font-size: 32px;
+  font-weight: 700;
+  color: #bfc8d4;
+}
+.subtitle {
+  line-height: 16px;
+  font-size: 20px;
+  font-weight: 900;
+  font-style: italic;
+  color: #49526b;
+}
+.sectionTitle {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #49526b;
+}
+.subSectionTitle {
+  margin: 1.5rem 0 0.75rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 800;
+  color: #7c86a1;
+}
+.formSection {
+  margin-bottom: 0.5rem;
+}
+.formHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.formIcon {
+  font-size: 36px;
+}
+
+.selected {
+  width: 32rem;
+  margin-bottom: 0.5rem;
+  padding: 0.7rem 0.8rem;
+  border-radius: 0.2rem;
+  background-color: #0b1118;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.selectedDuoWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.selectedDuo {
+  width: 15rem;
+  margin-bottom: 0.5rem;
+  padding: 0.7rem 0.8rem;
+  border-radius: 0.2rem;
+  background-color: #0b1118;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.chart {
+  margin-right: 1.2rem;
+}
+.chartAlt {
+  margin-right: 2.5rem;
+}

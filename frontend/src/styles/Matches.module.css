@@ -1,0 +1,79 @@
+.fbColumnOne,
+.fbColumnTwo,
+.fbColumnThree,
+.fbColumnFour,
+.crColumnOne,
+.crColumnTwo,
+.crColumnThree,
+.crColumnFour,
+.mlColumnOne,
+.mlColumnTwo,
+.mlColumnThree,
+.mlColumnFour,
+.mlColumnFive {
+  display: flex;
+  justify-content: center;
+  cursor: inherit;
+}
+
+/* First Blood Time Styling */
+.fbColumnOne {
+  width: 7rem;
+}
+.fbColumnTwo {
+  width: 12rem;
+}
+.fbColumnThree {
+  width: 12rem;
+}
+.fbColumnFour {
+  width: 12rem;
+}
+
+/* Cluster Region Styling */
+.crColumnOne {
+  width: 7rem;
+}
+.crColumnTwo {
+  width: 12rem;
+}
+.crColumnThree {
+  width: 12rem;
+}
+.crColumnFour {
+  width: 12rem;
+}
+
+/* Most Liked Matches Styling */
+.mlColumnOne {
+  width: 7rem;
+}
+.mlColumnTwo {
+  width: 12rem;
+}
+.mlColumnThree {
+  width: 12rem;
+}
+.mlColumnFour {
+  width: 12rem;
+}
+.mlColumnFive {
+  width: 12rem;
+}
+
+.nameColumn {
+  justify-content: left;
+}
+
+.revealForm {
+  max-height: 42rem;
+  margin: 0 0 0.5rem 0;
+  flex-direction: row;
+  overflow-y: visible;
+  transition: 0.3s ease-out;
+}
+.revealContent {
+  opacity: 100;
+  transition: 0.2s ease;
+  transition-delay: 0.13s;
+}

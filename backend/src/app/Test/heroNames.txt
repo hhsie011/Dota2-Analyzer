@@ -1,0 +1,22 @@
+//THIS IS FOR HERO NAMES
+void Submanager_Hero_Names::heroJson(string text) {
+    vector<string> temp = getHnames();
+    vector<string> temp2 = getHids();
+    ostringstream oSS;
+    oSS << "{\n";
+    oSS << "    "heroes": [\n";
+    for (unsigned i = 0; i < temp.size(); i++) {
+        oSS << "    {\n";
+        oSS << "        "name": "" << temp.at(i) << "",\n";
+        oSS << "        "hero_id": "" << temp2.at(i) << ""\n    }";
+        if (!(i == temp.size()-1)) {
+            oSS << ",\n";
+        }
+    }
+    oSS << "    \n    ]\n}";
+    ofstream outfile(text);
+    if (outfile.is_open()) {
+        outfile << oSS.str();
+    }
+    outfile.close();
+}

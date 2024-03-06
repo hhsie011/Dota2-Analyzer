@@ -1,0 +1,148 @@
+.modal {
+  z-index: 3;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 56rem;
+  height: auto;
+  visibility: hidden;
+	backface-visibility: hidden;
+  transform: translate(-50%,-50%);
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+	opacity: 0;
+  border-radius: 0.2rem;
+  background-color: #1c2129;
+	transform: translateY(-100%);
+	transition: all 0.3s ease-out;
+}
+
+.hiddenContent {
+	opacity: 0;
+}
+
+.showContent {
+	opacity: 1;
+	transition: 0.5s ease;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  width: 50rem;
+}
+
+.overlay {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+	visibility: hidden;
+  background-color: rgba(0,0,0,0.5);
+  transition: all 0.2s ease;
+}
+
+.show {
+  visibility: visible;
+}
+
+.show .content {
+	opacity: 1;
+  transform: translateY(0);
+}
+
+.show ~ .overlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+.footer {
+  padding-bottom: 0.2rem;
+}
+
+.showContent {
+  opacity: 1;
+}
+
+.cancelButton {
+  color: #af3c38;
+}
+.cancelButton * {
+  cursor: pointer !important;
+}
+
+.button {
+  padding: 0.6rem 1rem;
+  margin-top: 1.2rem;
+  margin-right: 0.5rem;
+  height: 1.5rem;
+  border-radius: 0.2rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: #bfc8d4;
+  background-color: #292f3d;
+  cursor: pointer;
+  transition: 0.15s ease-in-out;
+}
+.button * {
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #af3c38;
+  transition: 0.1s ease-in-out;
+}
+
+.highlight {
+  background-color: #af3c38;
+}
+
+.togglePageButtonWrapper {
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+}
+.togglePageButtonWrapper .togglePageButton,
+.togglePageButtonWrapper .togglePageButtonSelected  {
+  margin-right: 0.3rem;
+  padding: 0.3rem 0.6rem;
+  border: 2px solid #7c86a1;
+  border-radius: 0.2rem;
+  line-height: 16px;
+  cursor: pointer;
+}
+.togglePageButton {
+  background-color: #292f3d;
+  color: #7c86a1;
+  transition: 0.2s ease;
+}
+.togglePageButton:hover {
+  background-color: #7c86a1;
+  color: #1c2129;
+  transition: 0.15s ease;
+}
+.togglePageButtonSelected {
+  background-color: #7c86a1;
+  color: #1c2129;
+}
+.togglePageNumber .togglePageButton,
+.togglePageNumber .togglePageButtonSelected  {
+  padding: 0.15rem 0.3rem;
+  font-size: 12px;
+}
+
+.alert {
+  padding-bottom: 0.8rem;
+  font-weight: 700;
+  font-style: italic;
+  /* text-transform: uppercase; */
+  color: #af3c38;
+}

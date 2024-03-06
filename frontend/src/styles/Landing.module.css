@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 144px;
+  text-align: center;
+}
+
+.title {
+  line-height: 64px;
+  font-size: 72px;
+}
+.description {
+  padding-bottom: 48px;
+  font-size: 18px;
+}
+
+.button {
+  width: 20rem;
+}

@@ -1,0 +1,41 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+*/node_modules
+*/.pnp
+.pnp.js
+/*/.vscode/
+.vscode/
+*.out
+*.csv
+*.gch
+**/*.out
+test
+backend.out
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+package-lock.json
+frontend/public/players.json
+frontend/public/positive_votes.json
+frontend/public/heroes.json
+frontend/public/ability_upgrades.json

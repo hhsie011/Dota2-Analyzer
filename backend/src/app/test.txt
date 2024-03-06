@@ -1,0 +1,26 @@
+search_top_abilities <limit>
+search_heroes <limit>
+search_players <limit>
+search_first_blood_time <limit>
+search_cluster_region <limit>
+search_most_liked_match <limit>
+insert_ability <ability_name> <upgrade_count> 0 0 0 0 0 0 0 0 0 0 0 0
+insert_hero <hero_name> <win_rate> <pick_rate> 0 0 0 0 0 0 0 0 0 0 0
+insert_player <account_id> <win_count> <match_count> 0 0 0 0 0 0 0 0 0 0 0
+insert_match <match_id> <win_type> <first_blood_time> <cluster_id> <like_count> <dislike_count> 0 0 0 0 0 0 0 0
+update_ability <ability_name> <upgrade_count> 0 0 0 0 0 0 0 0 0 0 0 0
+update_hero <hero_name> <win_rate> <pick_rate> 0 0 0 0 0 0 0 0 0 0 0
+update_player <account_id> <win_count> <match_count> 0 0 0 0 0 0 0 0 0 0 0
+update_match <match_id> <win_type> <first_blood_time> <cluster_id> <like_count> <dislike_count> 0 0 0 0 0 0 0 0
+delete_ability <id> 0 0 0 0 0 0 0 0 0 0 0 0 0
+delete_hero <id> 0 0 0 0 0 0 0 0 0 0 0 0 0
+delete_player <id> 0 0 0 0 0 0 0 0 0 0 0 0 0
+delete_match <id> 0 0 0 0 0 0 0 0 0 0 0 0 0
+backup_ability
+backup_hero
+backup_player
+backup_match
+import_ability
+import_hero
+import_player
+import_match
